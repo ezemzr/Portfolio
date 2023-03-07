@@ -7,12 +7,18 @@ import javascript from '../../assets/javascript.svg'
 import react from '../../assets/react.png'
 import git from '../../assets/git.png'
 import redux from '../../assets/redux.svg'
+import type from "../../assets/Typescript_logo_2020.svg"
+import node from "../../assets/Mi proyecto (6).png"
+import sql from "../../assets/sql.png"
 import mui from '../../assets/material-ui.svg'
 
 const Skills = () => {
     return (
         <div className='skills section__padding section__margin' id='skills'>
             <div className='skills__logos'>
+            <img src={sql} alt='sql' className='sql'/>
+                <img src={type} alt='type' className='type'/>
+                <img src={node} alt='node' className='node'/>
                 <img src={html} alt='html' className='html'/>
                 <img src={css} alt='css' className='css'/>
                 <img src={sass} alt='sass' className='sass'/>

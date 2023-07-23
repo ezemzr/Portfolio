@@ -24,7 +24,7 @@ const Home = () => {
             }}>
                 <h1 className='gradient__text welcome'>Bienvenido, </h1>
                 <h1 className='gradient__text'>Mi nombre es Ezequiel Minzer</h1>
-                <p>Soy desarrolador Full-Stack, en busca de mi primer experiencia laboral</p>
+                <p>Soy desarrolador Full-Stack, en busca de conseguir experiencia laboral</p>
                 <div className='btn'>
                     <a href='#contact'><button type='button' className='btn__contact gradient__button'>Contactame</button></a>
                     <div className='btn__icons'>
